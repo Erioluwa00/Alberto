@@ -2,12 +2,15 @@ import './Gallery.css'
 function Gallery(){
     return(
         <>
+        <div className='gallery-hero_section'>
+            <p> GALLERY</p>
+        </div>
         <div class="main-gallery-section" id="gallery_id">
  
- <div class="product-section-header">
+ {/* <div class="product-section-header">
    <p class="header1">#GALLERY</p>
    <p class="header2">All Available</p>
- </div>
+ </div> */}
 <section class="gallery-section">
 <div data-aos="fade-up" class="gall-text">
    <h1>Explore Exquisite Timepieces in Our Watch Gallery</h1>
@@ -17,7 +20,7 @@ function Gallery(){
 <div data-aos="fade-up" class="gall-image">
 
    <video controls muted loop autoPlay>
-       <source src="https://videos.pexels.com/video-files/7431378/7431378-sd_960_506_30fps.mp4"/>
+       <source src="https://videos.pexels.com/video-files/7033786/7033786-sd_640_360_25fps.mp4"/>
    </video>
 </div>
 </section>
@@ -326,6 +329,15 @@ function Gallery(){
    </div>
 </div>
 </div>
+</div>
+
+<div class="random-section">
+  <div class="random-section-img-container"><img src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/09/1.png" class="random-section-image"/></div>
+  <div class="random-section-img-container"><img src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/09/2.png" class=""/></div>
+  <div class="random-section-img-container"><img src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/09/3.png" class="random-section-image"/></div>
+  <div class="random-section-img-container"><img src="images/4.png" class="random-section-image"/></div>
+  <div class="random-section-img-container"><img src="images/5.png" class="random-section-image"/></div>
+  <div class="random-section-img-container"><img src="images/6.png" class="random-section-image"/></div>
 </div>
         </>
     )
